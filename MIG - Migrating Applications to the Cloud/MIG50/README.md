@@ -51,8 +51,8 @@ Before you run any of the below demos, run `make setup`. If you need to delete e
 
 ### Step 1 - Building and Pushing Images to Azure
 
-* Build the docker images in ACR with `make acrbuild`
-    * This command builds all three images using ACR build tasks
+* Build the docker images in Azure Container Registry with `make acrbuild`
+    * This command builds all three images using Azure Container Registry build tasks
     * You can see the built images using `az acr repository list -n $(acrname) -g $(rg)`
 
 ### Step 2 - Setup Azure Kubernetes Service
