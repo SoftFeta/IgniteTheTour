@@ -14,7 +14,7 @@ We're assuming you are running this demo on a Mac OS X Machine. If you aren't, y
 
 * [Homebrew](https://brew.sh/) - this is the CLI tool that we'll use to install the tools below
 * The `az` CLI. See [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos?view=azure-cli-latest&wt.mc_id=msignitethetour-github-mig50) for how to install it
-* [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?wt.mc_id=msignitethetour-github-mig50). Install with the following:
+* [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?wt.mc_id=msignitethetour-github-mig50). Azure Functions Core Tools lets you develop and test your functions on your local computer from the command prompt or terminal. Your local functions can connect to live Azure services, and you can debug your functions on your local computer using the full Functions runtime. You can even deploy a function app to your Azure subscription. Install with the following:
 
     ```console
     brew tap azure/functions
